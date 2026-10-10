@@ -6,7 +6,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/pantry")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://ingredient2dishfrontend.vercel.app"})
 public class PantryController {
 
     private final PantryRepository pantryRepository;
